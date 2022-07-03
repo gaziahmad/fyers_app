@@ -6,7 +6,7 @@ fyers = fyersModel.FyersModel(client_id='F4ZJFEICWT-100', token=token)
 # print('fyers.get_profile',fyers.get_profile())
 # print('fyers.holdings()',fyers.holdings())
 # print('fyers.funds()',fyers.funds())
-print('fyers.orderbook()',fyers.orderbook())
+print('fyers.holdings()',fyers.holdings())
 
 symbol = {'symbols':'NSE:ITC-EQ'}
-print(fyers.quotes(symbol))
+# print(fyers.quotes(symbol))
